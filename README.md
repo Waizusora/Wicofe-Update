@@ -10,6 +10,10 @@ System update client and update orchestration for Wicofe OS.
 - Version compatibility and downgrade policy.
 - Update logs, status reporting, and recovery integration.
 
+## Planned user-facing update workflow
+
+The proposed Terminal commands are `wpm sync` and `wpm upgrade`. If adopted, WPM remains the CLI/package-manager entry point and delegates whole-system release orchestration to this repository through a versioned contract. The command mapping and semantics are not finalized or implemented. See the [system delivery and installation direction](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md).
+
 ## Security requirements
 
 Define signed metadata, trust roots, key rotation, replay/downgrade protection, atomic activation, interrupted-update behavior, and rollback constraints before enabling unattended updates.
