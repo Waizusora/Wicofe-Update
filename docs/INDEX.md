@@ -5,6 +5,9 @@ This directory documents installed-system update orchestration for Wicofe.
 ## Architecture
 - [Whole-system update architecture 0.1](WHOLE_SYSTEM_UPDATE_ARCHITECTURE_0.1.md) — draft design for release trust, compatibility, staging, activation, health confirmation, rollback and WPM coordination.
 
+## Whole-system product direction
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned flexible Delivery Release cadence and urgent out-of-band security updates; WPM CLI integration remains proposed.
+
 ## Scope
 - Update metadata and release channels.
 - Artifact acquisition and integrity/authenticity verification.
