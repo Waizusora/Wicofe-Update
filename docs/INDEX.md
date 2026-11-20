@@ -6,7 +6,7 @@ This directory documents installed-system update orchestration for Wicofe.
 - [Whole-system update architecture 0.1](WHOLE_SYSTEM_UPDATE_ARCHITECTURE_0.1.md) — draft design for release trust, compatibility, staging, activation, health confirmation, rollback and WPM coordination.
 
 ## Whole-system product direction
-- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned flexible Delivery Release cadence and urgent out-of-band security updates; WPM CLI integration remains proposed.
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Doc/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned flexible Delivery Release cadence and urgent out-of-band security updates; WPM CLI integration remains proposed.
 
 ## Scope
 - Update metadata and release channels.
@@ -20,5 +20,5 @@ This directory documents installed-system update orchestration for Wicofe.
 ## Security
 Before unattended updates, specify signed metadata, trust roots, key rotation, replay protection, downgrade prevention, activation guarantees, interrupted-update behavior and recovery. Do not claim atomic updates or rollback until the selected storage/boot model is implemented and power-failure tested.
 
-- [Central documentation index](https://github.com/Waizusora/Wicofe-Docs/blob/main/INDEX.md)
-- [Repository documentation map](https://github.com/Waizusora/Wicofe-Docs/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
+- [Central documentation index](https://github.com/Waizusora/Wicofe-Doc/blob/main/INDEX.md)
+- [Repository documentation map](https://github.com/Waizusora/Wicofe-Doc/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
